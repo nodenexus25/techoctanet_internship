@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Creative To-Do List</h1>
+            <button id="toggle-theme" class="material-icons">brightness_4</button>
+        </header>
+        <div class="input-section">
+            <input type="text" id="new-task" placeholder="Add a new task...">
+            <button id="add-task">Add</button>
+        </div>
+        <div class="filter-section">
+            <button id="filter-all" class="filter-button active">All</button>
+            <button id="filter-completed" class="filter-button">Completed</button>
+            <button id="filter-pending" class="filter-button">Pending</button>
+        </div>
+        <ul id="task-list"></ul>
+        <div class="tips-container">
+            <h2>Tips for a Healthy Life</h2>
+            <ul class="tips-list">
+                <li>
+                    <span class="material-icons">accessibility_new</span>
+                    <p>Exercise regularly to keep your body fit and healthy.</p>
+                </li>
+                <li>
+                    <span class="material-icons">fastfood</span>
+                    <p>Maintain a balanced diet with plenty of fruits and vegetables.</p>
+                </li>
+                <li>
+                    <span class="material-icons">spa</span>
+                    <p>Ensure you get enough sleep to recharge and stay alert.</p>
+                </li>
+                <li>
+                    <span class="material-icons">emoji_objects</span>
+                    <p>Practice mindfulness and stress-relief techniques.</p>
+                </li>
+                <li>
+                    <span class="material-icons">local_drink</span>
+                    <p>Stay hydrated by drinking plenty of water throughout the day.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="A:\to-do list\index.js"></script>
+</body>
+</html>
